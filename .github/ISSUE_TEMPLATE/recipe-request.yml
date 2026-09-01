@@ -1,0 +1,32 @@
+name: Request a recipe
+description: Suggest a real job that needs a repeatable, verifiable workflow.
+title: "Recipe request: "
+labels:
+  - recipe-request
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: What job must get done?
+      description: Describe the result, not a preferred tool.
+    validations:
+      required: true
+  - type: textarea
+    id: artifact
+    attributes:
+      label: What artifact proves it worked?
+      placeholder: A passing build, reviewed report, signed release, or other checkable output.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and current tools
+      description: Include privacy, budget, hosting, open-source, team, or integration constraints. Do not include secrets or private data.
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I have not included credentials, private customer data, or confidential material.
+          required: true

@@ -24,3 +24,12 @@ verification, institutional policy, or qualified human review.
 
 More workflows and independent software guidance:
 [softwaresausage.com](https://softwaresausage.com/ai).
+
+## Request a recipe
+
+[Request a recipe](https://github.com/Software-Sausage/recipes/issues/new?template=recipe-request.yml)
+with the job, required artifact, inputs, constraints, and a verification method.
+Do not submit vendor-sponsored ranking copy or unverified benchmark claims.
+
+Optional one-time support is available through the repository sponsor button.
+Contributions never affect recipe inclusion, comparison, or ranking.
