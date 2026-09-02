@@ -1,0 +1,14 @@
+# Open-source options
+
+These are placement hypotheses, not Software Sausage benchmark results.
+
+| Harness | Model hypothesis | Why test it | Current proof |
+| --- | --- | --- | --- |
+| [OpenCode](https://opencode.ai/v2/docs/instructions) | [Devstral Small 2](https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512) | OpenCode reads `AGENTS.md`; Devstral's model card targets agentic software work and uses Apache-2.0 | Not run |
+| [OpenCode](https://opencode.ai/v2/docs/instructions) | [Qwen3-Coder-Next](https://huggingface.co/Qwen/Qwen3-Coder-Next) | The model card targets coding agents and local development and uses Apache-2.0 | Not run |
+| [Gemini CLI](https://geminicli.com/docs/cli/gemini-md/) | Devstral Small 2 or Qwen3-Coder-Next through a compatible endpoint | Gemini CLI can import the canonical rules through `GEMINI.md`; provider compatibility must be confirmed for the selected setup | Not run |
+
+"Open-source" is not the same as "runs cheaply on your computer." Check model
+license, hardware, quantization, provider privacy, and harness compatibility for
+your exact deployment. Compare combinations on the unchanged fixture and log
+cost, elapsed time, interventions, diff, and `verify.sh` result.

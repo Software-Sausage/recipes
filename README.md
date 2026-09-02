@@ -7,7 +7,7 @@ instructions, starter artifacts, safety boundary, and smallest useful check.
 
 ```sh
 git clone https://github.com/Software-Sausage/recipes.git sausage-recipes
-cd sausage-recipes/recipes/research-paper
+cd sausage-recipes/recipes/portable-agent-repository
 ```
 
 Open that directory in Codex, Claude Code, or another repository-aware agent,
@@ -17,6 +17,7 @@ then paste the task from `PROMPT.md`.
 
 | Recipe | Produces | Status |
 | --- | --- | --- |
+| [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Fixture-verified; harness benchmark planned |
 | [Research paper](recipes/research-paper) | A source ledger, LaTeX manuscript, build evidence, and adversarial review log | Editorial |
 
 The recipes are free under the MIT license. They do not replace source
