@@ -40,6 +40,12 @@ passed 3/3; Ponytail 4.8.4 reduced median time 29.1% and reported list cost
 28.8% on this fixture while median code size remained equal. Inspect the
 [protocol and every artifact](https://softwaresausage.com/ai/comparisons/claude-code-opus-5-ponytail?source=referral&utm_campaign=github-recipes).
 
+The [Codex CLI comparison](recipes/portable-agent-repository/benchmarks/2026-09-03-codex-gpt-5-6-sol-ponytail.md)
+uses the same fixture and three runs per arm. Both arms again passed 3/3;
+Ponytail reduced median implementation size from seven to three nonblank lines
+but increased median time and tokens. The different result is why add-ons must
+be tested per harness and job.
+
 ## Request a recipe
 
 [Request a recipe](https://github.com/Software-Sausage/recipes/issues/new?template=recipe-request.yml)

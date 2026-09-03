@@ -41,5 +41,10 @@ The same fixture also has a three-run-per-arm
 Both arms passed 3/3. Ponytail reduced median elapsed time and reported list
 cost on this task, while median implementation size was unchanged.
 
+The [`Codex CLI + GPT-5.6-sol comparison`](benchmarks/2026-09-03-codex-gpt-5-6-sol-ponytail.md)
+also passed 3/3 in both arms. Ponytail reduced median implementation size but
+used more median time and tokens, showing why the Claude result should not be
+generalized across harnesses.
+
 Read `privacy-boundary.md` before using the pack on a real repository. See
 `open-source-options.md` for explicitly unverified open-source combinations.
