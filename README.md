@@ -19,6 +19,7 @@ then paste the task from `PROMPT.md`.
 | --- | --- | --- |
 | [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Fixture-verified; harness benchmark planned |
 | [Research paper](recipes/research-paper) | A source ledger, LaTeX manuscript, build evidence, and adversarial review log | Editorial |
+| [Obsidian Operator sampler](recipes/obsidian-operator-sampler) | A clean-vault daily, meeting, person, project, task, and procedure loop | Fixture-verified sampler |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
