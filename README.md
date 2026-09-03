@@ -29,10 +29,13 @@ More workflows and independent software guidance:
 
 ## Measured agent baseline
 
-The pinned [v0.7.0 benchmark](https://github.com/Software-Sausage/recipes/blob/v0.7.0/recipes/portable-agent-repository/benchmarks/2026-09-03.md)
+The pinned [v0.12.0 benchmark](https://github.com/Software-Sausage/recipes/blob/v0.12.0/recipes/portable-agent-repository/benchmarks/2026-09-03.md)
 records harness and model versions, elapsed time, reported cost, file scope,
-failed commands, verifier output, and limitations. It is a small portability
-test, not a universal model leaderboard.
+failed commands, verifier output, and limitations. Codex/GPT-5.6-sol,
+Claude Code/Opus 5, and OpenCode/local Qwen3 Coder passed; OpenCode/local
+Devstral Small 2 stopped on its own failing verifier, and Gemini CLI was
+blocked before model execution. It is a small portability test, not a
+universal model leaderboard.
 
 Release [v0.8.0](https://github.com/Software-Sausage/recipes/releases/tag/v0.8.0)
 adds three blinded runs per arm of Claude Code 2.1.259 with Opus 5. Both arms
