@@ -17,7 +17,7 @@ then paste the task from `PROMPT.md`.
 
 | Recipe | Produces | Status |
 | --- | --- | --- |
-| [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Codex, Claude Code, and local OpenCode/Qwen3 Coder passed; Gemini CLI blocked before model execution |
+| [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Cross-harness baseline plus a measured Claude Code/Opus 5 comparison with and without Ponytail |
 | [Research paper](recipes/research-paper) | A source ledger, LaTeX manuscript, build evidence, and adversarial review log | Editorial |
 | [Obsidian Operator sampler](recipes/obsidian-operator-sampler) | A clean-vault daily, meeting, person, project, task, and procedure loop | Fixture-verified sampler |
 
@@ -25,7 +25,7 @@ The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
 
 More workflows and independent software guidance:
-[softwaresausage.com](https://softwaresausage.com/ai).
+[softwaresausage.com](https://softwaresausage.com/ai?source=referral&utm_campaign=github-recipes).
 
 ## Measured agent baseline
 
@@ -33,6 +33,12 @@ The pinned [v0.7.0 benchmark](https://github.com/Software-Sausage/recipes/blob/v
 records harness and model versions, elapsed time, reported cost, file scope,
 failed commands, verifier output, and limitations. It is a small portability
 test, not a universal model leaderboard.
+
+Release [v0.8.0](https://github.com/Software-Sausage/recipes/releases/tag/v0.8.0)
+adds three blinded runs per arm of Claude Code 2.1.259 with Opus 5. Both arms
+passed 3/3; Ponytail 4.8.4 reduced median time 29.1% and reported list cost
+28.8% on this fixture while median code size remained equal. Inspect the
+[protocol and every artifact](https://softwaresausage.com/ai/comparisons/claude-code-opus-5-ponytail?source=referral&utm_campaign=github-recipes).
 
 ## Request a recipe
 
@@ -42,6 +48,10 @@ Do not submit vendor-sponsored ranking copy or unverified benchmark claims.
 
 Optional one-time support is available through the repository sponsor button.
 Contributions never affect recipe inclusion, comparison, or ranking.
+
+Need a business-software decision instead? The
+[free shortlist](https://softwaresausage.com/build?source=referral&utm_campaign=github-recipes)
+comes before an optional $39 private report.
 
 ## Software decision kits
 
