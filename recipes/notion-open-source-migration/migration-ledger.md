@@ -7,6 +7,7 @@
 - Migration operator:
 - Authorized source workspace and teamspaces:
 - Destination candidate: Outline / AppFlowy / stop
+- Exact destination component, version, edition, and license:
 - Hosting candidate: vendor-hosted / self-hosted / undecided
 - Target cutover date:
 - Rollback owner and deadline:
@@ -70,6 +71,14 @@ not use the production destination for the first import.
 | New-user and offboarding flow |  |  |  |  |
 | Destination export and clean restore |  |  |  |  |
 
+## License boundary
+
+- Outline BSL 1.1 restrictions reviewed for the intended production use:
+- AppFlowy AGPLv3 obligations reviewed for the exact components in scope:
+- Hosted, self-hosted, client, and server components checked separately:
+- Commercial features or licenses required by the intended use:
+- License review owner and date:
+
 ### Outline path
 
 - Import method: Notion file / Markdown / HTML / API / OAuth importer
@@ -125,6 +134,7 @@ path, choose hosted service for the pilot or stop the self-hosting decision.
 
 - [ ] Authorized and exportable source scope match.
 - [ ] A representative pilot records destination-specific fidelity failures.
+- [ ] The exact component, edition, and license fit the intended production use.
 - [ ] Content, hierarchy, databases, assets, links, and search reconcile.
 - [ ] Permissions, users, authorship, comments, integrations, and automations have explicit paths.
 - [ ] Destination export and restore work on a clean test instance.

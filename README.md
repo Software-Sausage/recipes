@@ -29,7 +29,7 @@ the task from `PROMPT.md`.
 | [Automation platform reliability and exit](recipes/automation-platform-exit-test) | A workflow inventory, failure drills, and clean-instance reconstruction checks | Fixture-verified decision kit |
 | [MCP server preflight](recipes/mcp-server-preflight) | A provenance record, least-privilege ledger, dependency evidence, and negative-test plan | Fixture-verified decision kit |
 | [1Password to Bitwarden migration](recipes/1password-to-bitwarden) | A secret-free inventory, access design, import reconciliation, plaintext-export controls, and rollback gate | Fixture-verified migration kit |
-| [Notion to an open-source knowledge base](recipes/notion-open-source-migration) | A content inventory, Outline/AppFlowy pilot matrix, fidelity checks, operating-ownership gate, and rollback plan | Fixture-verified migration kit |
+| [Notion to Outline or AppFlowy](recipes/notion-open-source-migration) | A content inventory, license boundary, destination pilot matrix, fidelity checks, operating-ownership gate, and rollback plan | Fixture-verified migration kit |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
