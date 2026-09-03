@@ -34,3 +34,9 @@ Do not submit vendor-sponsored ranking copy or unverified benchmark claims.
 
 Optional one-time support is available through the repository sponsor button.
 Contributions never affect recipe inclusion, comparison, or ranking.
+
+## Software decision kits
+
+- [Slack to Mattermost](recipes/slack-to-mattermost): fixed 25-person cost
+  model, editable operating assumptions, privacy boundary, and migration
+  checklist.

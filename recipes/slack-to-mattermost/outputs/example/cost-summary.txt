@@ -1,0 +1,7 @@
+Team size: 25
+Slack Pro year one: $2175.00
+Slack Business+ year one: $4500.00
+Mattermost Entry recurring: $3360.00
+Mattermost migration: $1800.00
+Mattermost Entry year one: $5160.00
+Mattermost Entry following year: $3360.00
