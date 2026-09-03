@@ -10,7 +10,8 @@ esac
 
 for file in README.md AGENTS.md CLAUDE.md GEMINI.md PROMPT.md privacy-boundary.md \
   open-source-options.md inputs/example/request.md outputs/example/run-log.md \
-  skills/verified-change/SKILL.md templates/run-log.md; do
+  skills/verified-change/SKILL.md templates/run-log.md \
+  benchmarks/2026-09-03.md; do
   if [ ! -s "$root/$file" ]; then
     echo "Missing or empty pack file: $root/$file" >&2
     exit 1

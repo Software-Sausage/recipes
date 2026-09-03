@@ -30,10 +30,11 @@ network connection, or credentials are required.
 that the test and fixture README were not changed, and that the target contains
 no extra, symlinked, or commonly named secret files.
 
-No cross-harness or cross-model run has been performed by this repository.
-Those results remain a planned benchmark. Use `templates/run-log.md` to record
-the harness, model, cost, elapsed time, interventions, and verifier result for
-each real run; do not infer quality from a model vendor's benchmark.
+A first cross-harness baseline is recorded in
+[`benchmarks/2026-09-03.md`](benchmarks/2026-09-03.md). Codex and Claude Code
+passed with hosted models, and OpenCode passed with a local Qwen3 Coder model;
+Gemini CLI was blocked before model execution. Use `templates/run-log.md` for
+further runs and do not infer a universal winner from this small task.
 
 Read `privacy-boundary.md` before using the pack on a real repository. See
 `open-source-options.md` for explicitly unverified open-source combinations.
