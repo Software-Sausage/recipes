@@ -30,6 +30,7 @@ the task from `PROMPT.md`.
 | [MCP server preflight](recipes/mcp-server-preflight) | A provenance record, least-privilege ledger, dependency evidence, and negative-test plan | Fixture-verified decision kit |
 | [1Password to Bitwarden migration](recipes/1password-to-bitwarden) | A secret-free inventory, access design, import reconciliation, plaintext-export controls, and rollback gate | Fixture-verified migration kit |
 | [Notion to Outline or AppFlowy](recipes/notion-open-source-migration) | A content inventory, license boundary, destination pilot matrix, fidelity checks, operating-ownership gate, and rollback plan | Fixture-verified migration kit |
+| [Google Drive to Nextcloud](recipes/google-drive-to-nextcloud) | An export-authority record, file and sharing inventory, conversion pilot, operating-ownership gate, reconciliation, and rollback plan | Fixture-verified migration kit |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
