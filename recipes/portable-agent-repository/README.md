@@ -36,5 +36,10 @@ passed with hosted models, and OpenCode passed with a local Qwen3 Coder model;
 Gemini CLI was blocked before model execution. Use `templates/run-log.md` for
 further runs and do not infer a universal winner from this small task.
 
+The same fixture also has a three-run-per-arm
+[`Claude Code + Opus 5 comparison with and without Ponytail 4.8.4`](benchmarks/2026-09-03-claude-opus-5-ponytail.md).
+Both arms passed 3/3. Ponytail reduced median elapsed time and reported list
+cost on this task, while median implementation size was unchanged.
+
 Read `privacy-boundary.md` before using the pack on a real repository. See
 `open-source-options.md` for explicitly unverified open-source combinations.
