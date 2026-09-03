@@ -8,10 +8,13 @@ instructions, starter artifacts, safety boundary, and smallest useful check.
 ```sh
 git clone https://github.com/Software-Sausage/recipes.git sausage-recipes
 cd sausage-recipes/recipes/portable-agent-repository
+./verify.sh
 ```
 
-Open that directory in Codex, Claude Code, or another repository-aware agent,
-then paste the task from `PROMPT.md`.
+That credential-free check should end with `Verification passed`. To benchmark
+an agent, copy the input fixture as described in this recipe's README, open the
+directory in Codex, Claude Code, or another repository-aware agent, and paste
+the task from `PROMPT.md`.
 
 ## Recipes
 
