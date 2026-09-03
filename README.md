@@ -17,7 +17,7 @@ then paste the task from `PROMPT.md`.
 
 | Recipe | Produces | Status |
 | --- | --- | --- |
-| [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Fixture-verified; harness benchmark planned |
+| [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Codex, Claude Code, and local OpenCode/Qwen3 Coder passed; Gemini CLI blocked before model execution |
 | [Research paper](recipes/research-paper) | A source ledger, LaTeX manuscript, build evidence, and adversarial review log | Editorial |
 | [Obsidian Operator sampler](recipes/obsidian-operator-sampler) | A clean-vault daily, meeting, person, project, task, and procedure loop | Fixture-verified sampler |
 
@@ -26,6 +26,13 @@ verification, institutional policy, or qualified human review.
 
 More workflows and independent software guidance:
 [softwaresausage.com](https://softwaresausage.com/ai).
+
+## Measured agent baseline
+
+The pinned [v0.7.0 benchmark](https://github.com/Software-Sausage/recipes/blob/v0.7.0/recipes/portable-agent-repository/benchmarks/2026-09-03.md)
+records harness and model versions, elapsed time, reported cost, file scope,
+failed commands, verifier output, and limitations. It is a small portability
+test, not a universal model leaderboard.
 
 ## Request a recipe
 
