@@ -44,3 +44,6 @@ Contributions never affect recipe inclusion, comparison, or ranking.
 - [Self-hosted vs managed forge](recipes/self-hosted-vs-managed-forge):
   metadata-only repository inventory, ownership matrix, privacy boundary, and
   migration checklist.
+- [CRM admin and exit cost](recipes/crm-admin-exit-cost): editable Pipedrive,
+  HubSpot, and Salesforce cost assumptions plus a reconstruction-focused exit
+  test.
