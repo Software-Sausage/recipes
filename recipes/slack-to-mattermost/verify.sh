@@ -3,7 +3,7 @@ set -eu
 
 root=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
-for file in README.md calculate.sh privacy-boundary.md outputs/example/cost-summary.txt templates/migration-checklist.md; do
+for file in README.md calculate.sh privacy-boundary.md outputs/example/cost-summary.txt templates/decision-inputs.md templates/migration-checklist.md; do
   test -s "$root/$file" || { echo "Missing or empty file: $file" >&2; exit 1; }
 done
 
