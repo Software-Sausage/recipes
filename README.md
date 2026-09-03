@@ -27,6 +27,7 @@ the task from `PROMPT.md`.
 | [Self-hosted vs. managed forge](recipes/self-hosted-vs-managed-forge) | A metadata-only repository inventory, ownership matrix, privacy boundary, and migration checklist | Fixture-verified decision kit |
 | [CRM admin and exit cost](recipes/crm-admin-exit-cost) | An editable cost model and reconstruction-focused exit test | Fixture-verified decision kit |
 | [Automation platform reliability and exit](recipes/automation-platform-exit-test) | A workflow inventory, failure drills, and clean-instance reconstruction checks | Fixture-verified decision kit |
+| [MCP server preflight](recipes/mcp-server-preflight) | A provenance record, least-privilege ledger, dependency evidence, and negative-test plan | Fixture-verified decision kit |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
