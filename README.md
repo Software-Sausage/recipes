@@ -70,3 +70,6 @@ comes before an optional $39 private report.
 - [CRM admin and exit cost](recipes/crm-admin-exit-cost): editable Pipedrive,
   HubSpot, and Salesforce cost assumptions plus a reconstruction-focused exit
   test.
+- [Automation platform reliability and exit test](recipes/automation-platform-exit-test):
+  workflow inventory, billing-unit comparison, failure drills, and clean-instance
+  reconstruction checks for Zapier, Activepieces, n8n, or another candidate.
