@@ -28,8 +28,8 @@ BEGIN {
   printf "Team size: %d\n", team
   printf "Slack Pro year one: $%.2f\n", slack_pro_year
   printf "Slack Business+ year one: $%.2f\n", slack_business_year
-  printf "Mattermost Entry recurring: $%.2f\n", mattermost_recurring
+  printf "Mattermost self-managed recurring: $%.2f\n", mattermost_recurring
   printf "Mattermost migration: $%.2f\n", migration_cost
-  printf "Mattermost Entry year one: $%.2f\n", mattermost_recurring + migration_cost
-  printf "Mattermost Entry following year: $%.2f\n", mattermost_recurring
+  printf "Mattermost self-managed year one: $%.2f\n", mattermost_recurring + migration_cost
+  printf "Mattermost self-managed following year: $%.2f\n", mattermost_recurring
 }'

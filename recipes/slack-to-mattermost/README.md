@@ -1,9 +1,9 @@
 # Slack to Mattermost decision kit
 
 Compare a fixed 25-person Slack subscription with a self-managed Mattermost
-Entry scenario. The calculator counts infrastructure, backups, operator labor,
-and migration instead of treating a zero-dollar license as a zero-dollar
-service.
+scenario. The default models a limited technical evaluation with no product
+fee; it is not a production license quote. The calculator counts
+infrastructure, backups, operator labor, and migration.
 
 ## Run the default scenario
 
@@ -16,13 +16,14 @@ Default result:
 
 - Slack Pro year one: **$2,175**
 - Slack Business+ year one: **$4,500**
-- Mattermost Entry year one: **$5,160**
-- Mattermost Entry following year: **$3,360**
+- Mattermost self-managed evaluation year one: **$5,160**
+- Mattermost self-managed evaluation following year: **$3,360**
 
 These are calculated planning figures, not a customer quote or migration
 benchmark. Slack prices are public annual list prices reviewed September 2,
 2026. Mattermost infrastructure, backup, labor, and migration values are
-editable assumptions.
+editable assumptions. Confirm the edition and set `MATTERMOST_LICENSE_YEARLY`
+to an applicable production quote before using the result for procurement.
 
 ## Use your own inputs
 
