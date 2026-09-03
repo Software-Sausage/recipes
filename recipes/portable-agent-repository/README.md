@@ -32,9 +32,10 @@ no extra, symlinked, or commonly named secret files.
 
 A first cross-harness baseline is recorded in
 [`benchmarks/2026-09-03.md`](benchmarks/2026-09-03.md). Codex and Claude Code
-passed with hosted models, and OpenCode passed with a local Qwen3 Coder model;
-Gemini CLI was blocked before model execution. Use `templates/run-log.md` for
-further runs and do not infer a universal winner from this small task.
+passed with hosted models, OpenCode passed with local Qwen3 Coder, and
+OpenCode/Devstral Small 2 failed after stopping on a failing verifier; Gemini
+CLI was blocked before model execution. Use `templates/run-log.md` for further
+runs and do not infer a universal winner from this small task.
 
 The same fixture also has a three-run-per-arm
 [`Claude Code + Opus 5 comparison with and without Ponytail 4.8.4`](benchmarks/2026-09-03-claude-opus-5-ponytail.md).
