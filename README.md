@@ -23,6 +23,10 @@ the task from `PROMPT.md`.
 | [Portable agent-ready repository](recipes/portable-agent-repository) | One shared instruction source, a fixed coding fixture, and credential-free verification | Cross-harness baseline plus a measured Claude Code/Opus 5 comparison with and without Ponytail |
 | [Research paper](recipes/research-paper) | A source ledger, LaTeX manuscript, build evidence, and adversarial review log | Editorial |
 | [Obsidian Operator sampler](recipes/obsidian-operator-sampler) | A clean-vault daily, meeting, person, project, task, and procedure loop | Fixture-verified sampler |
+| [Slack to Mattermost](recipes/slack-to-mattermost) | A fixed cost model, operating assumptions, privacy boundary, and migration checklist | Fixture-verified decision kit |
+| [Self-hosted vs. managed forge](recipes/self-hosted-vs-managed-forge) | A metadata-only repository inventory, ownership matrix, privacy boundary, and migration checklist | Fixture-verified decision kit |
+| [CRM admin and exit cost](recipes/crm-admin-exit-cost) | An editable cost model and reconstruction-focused exit test | Fixture-verified decision kit |
+| [Automation platform reliability and exit](recipes/automation-platform-exit-test) | A workflow inventory, failure drills, and clean-instance reconstruction checks | Fixture-verified decision kit |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
@@ -64,18 +68,3 @@ Contributions never affect recipe inclusion, comparison, or ranking.
 Need a business-software decision instead? The
 [free shortlist](https://softwaresausage.com/build?source=referral&utm_campaign=github-recipes)
 comes before an optional $39 private report.
-
-## Software decision kits
-
-- [Slack to Mattermost](recipes/slack-to-mattermost): fixed 25-person cost
-  model, editable operating assumptions, privacy boundary, and migration
-  checklist.
-- [Self-hosted vs managed forge](recipes/self-hosted-vs-managed-forge):
-  metadata-only repository inventory, ownership matrix, privacy boundary, and
-  migration checklist.
-- [CRM admin and exit cost](recipes/crm-admin-exit-cost): editable Pipedrive,
-  HubSpot, and Salesforce cost assumptions plus a reconstruction-focused exit
-  test.
-- [Automation platform reliability and exit test](recipes/automation-platform-exit-test):
-  workflow inventory, billing-unit comparison, failure drills, and clean-instance
-  reconstruction checks for Zapier, Activepieces, n8n, or another candidate.
