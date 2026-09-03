@@ -40,3 +40,6 @@ Contributions never affect recipe inclusion, comparison, or ranking.
 - [Slack to Mattermost](recipes/slack-to-mattermost): fixed 25-person cost
   model, editable operating assumptions, privacy boundary, and migration
   checklist.
+- [Self-hosted vs managed forge](recipes/self-hosted-vs-managed-forge):
+  metadata-only repository inventory, ownership matrix, privacy boundary, and
+  migration checklist.
