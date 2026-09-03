@@ -31,6 +31,12 @@ the task from `PROMPT.md`.
 | [1Password to Bitwarden migration](recipes/1password-to-bitwarden) | A secret-free inventory, access design, import reconciliation, plaintext-export controls, and rollback gate | Fixture-verified migration kit |
 | [Notion to Outline or AppFlowy](recipes/notion-open-source-migration) | A content inventory, license boundary, destination pilot matrix, fidelity checks, operating-ownership gate, and rollback plan | Fixture-verified migration kit |
 | [Google Drive to Nextcloud](recipes/google-drive-to-nextcloud) | An export-authority record, file and sharing inventory, conversion pilot, operating-ownership gate, reconciliation, and rollback plan | Fixture-verified migration kit |
+| [Spec to production proof](recipes/spec-to-production-proof) | A linked specification, implementation ledger, browser evidence, and rollback gate | Fixture-verified workflow kit |
+| [AI workflow regression test](recipes/ai-workflow-regression-test) | Frozen cases, pinned model and prompt settings, comparable runs, and a reviewed release gate | Fixture-verified evaluation kit |
+| [Open-source coding-agent benchmark](recipes/open-source-coding-agent-benchmark) | A fixed repository fixture, comparable run manifests, blind scores, and a job-specific agent decision | Fixture-verified benchmark kit |
+| [Document parser fidelity test](recipes/document-parser-fidelity-test) | Side-by-side extraction evidence for MarkItDown and Docling with a source-linked claim ledger | Fixture-verified decision kit |
+| [Browser performance regression](recipes/browser-performance-regression) | Reproducible browser conditions, before-and-after traces, functional checks, and a reviewed fix | Fixture-verified workflow kit |
+| [Safe dependency upgrade](recipes/safe-dependency-upgrade) | A scoped upgrade, dependency and lockfile evidence, scan findings, runtime proof, and rollback record | Fixture-verified workflow kit |
 
 The recipes are free under the MIT license. They do not replace source
 verification, institutional policy, or qualified human review.
