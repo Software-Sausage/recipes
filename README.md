@@ -44,6 +44,11 @@ verification, institutional policy, or qualified human review.
 More workflows and independent software guidance:
 [softwaresausage.com](https://softwaresausage.com/ai?source=referral&utm_campaign=github-recipes).
 
+Get one recipe a week by email through the
+[Software Sausage newsletter](https://softwaresausage.com/?source=referral&utm_campaign=github-recipes#newsletter).
+Signup is confirmed by email, every issue has a one-click unsubscribe, and the
+list is never sold.
+
 ## Measured agent baseline
 
 The pinned [v0.12.0 benchmark](https://github.com/Software-Sausage/recipes/blob/v0.12.0/recipes/portable-agent-repository/benchmarks/2026-09-03.md)
